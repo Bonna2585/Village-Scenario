@@ -12,7 +12,16 @@ int person = 0;
 ///ID: 191-15-2585
 void land()
 {
+glColor3f(0.0 ,0.9 ,0.0);
+    glBegin(GL_POLYGON);
 
+    glVertex3i(0, 200, 0);
+    glVertex3i(1200, 200, 0);
+    glVertex3i(1200, 600, 0);
+    glVertex3i(0, 600, 0);
+
+
+glEnd();
 
 }
 void house()
